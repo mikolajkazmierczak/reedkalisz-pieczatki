@@ -8,4 +8,4 @@
 
 <slot />
 
-<!-- <Logo align="right" /> -->
+<Logo align="right" />

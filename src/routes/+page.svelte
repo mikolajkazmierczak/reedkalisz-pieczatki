@@ -12,7 +12,20 @@
       </p>
     </div>
     <div class="right">
-      <img src="/img/stamp.png" alt="stępel" />
+      <img src="/img/stamp.svg" alt="pieczątki" />
+    </div>
+  </section>
+
+  <section id="uslugi">
+    <div class="left">
+      <h1>Usługi</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis vel numquam molestiae ratione ipsum nulla
+        repudiandae, ex, itaque nam non vero sapiente similique optio labore a sit distinctio adipisci voluptatibus?
+      </p>
+    </div>
+    <div class="right">
+      <img src="/img/plate.svg" alt="tabliczka" />
     </div>
   </section>
 
@@ -20,17 +33,19 @@
     <div class="left">
       <h1>Kontakt</h1>
       <div class="row">
-        <img src="/img/phone.png" alt="phone" />
+        <img src="/img/letter.png" alt="letter" />
         <div>
-          <a href="tel:+48627531590">tel. 62 753 15 90</a>
-          <a href="tel:+48627531591">tel. 62 753 15 91</a>
-          <a href="tel:+48608612625">tel. 608 612 625</a>
+          <b>Email</b>
+          <a href="mailto:info@reed.kalisz.pl">info@reed.kalisz.pl</a>
         </div>
       </div>
       <div class="row">
-        <img src="/img/letter.png" alt="letter" />
+        <img src="/img/phone.png" alt="phone" />
         <div>
-          <a href="mailto:info@reed.kalisz.pl">info@reed.kalisz.pl</a>
+          <b>Telefon</b>
+          <a href="tel:+48627531590">tel. 62 753 15 90</a>
+          <a href="tel:+48627531591">tel. 62 753 15 91</a>
+          <a href="tel:+48608612625">tel. 608 612 625</a>
         </div>
       </div>
       <div class="row">
@@ -66,13 +81,12 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 2rem 0;
+    padding: 4rem 2rem;
   }
 
   section {
-    padding: 2rem;
     width: 100%;
-    max-width: 900px;
+    max-width: 800px;
   }
 
   h1 {
@@ -104,12 +118,11 @@
     margin: 1rem 0;
   }
   #kontakt .row div {
-    margin: 0 1rem 0.5rem 1rem;
+    margin-left: 1rem;
     white-space: nowrap;
   }
   #kontakt .row a {
     display: block;
-    margin-bottom: 0.5rem;
   }
   #kontakt .row a:hover {
     text-decoration: none;

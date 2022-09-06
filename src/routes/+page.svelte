@@ -18,11 +18,13 @@
 
   <section id="uslugi">
     <div class="left">
-      <h1>Usługi</h1>
+      <h1>Znakowanie</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis vel numquam molestiae ratione ipsum nulla
-        repudiandae, ex, itaque nam non vero sapiente similique optio labore a sit distinctio adipisci voluptatibus?
+        Wykonujemy znakowanie tabliczek i paneli metalowych, z metalu z pokryciami powierzchniowymi, laminatu oraz folii
+        grawerskiej.
       </p>
+      <p>Nasze systemy laserowe pozwalają na oznakowanie niewielkich elementów przy zachowaniu wyjątkowej precyzji.</p>
+      <p>Efekt końcowy jest estetyczny i trwały.</p>
     </div>
     <div class="right">
       <img src="/img/plate.svg" alt="tabliczka" />
@@ -86,7 +88,7 @@
 
   section {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
   }
 
   h1 {

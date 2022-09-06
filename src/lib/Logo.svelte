@@ -3,12 +3,11 @@
 </script>
 
 <div class="logo" class:right={align == 'right'}>
-  - pieczątki - <img src="/logo_red.svg" alt="logo" /> - stemple - oprawy do stempli -
+  - pieczątki - <img src="/logo_red.svg" alt="logo" /> - tabliczki znamionowe - grawal -
   <img src="/logo_red.svg" alt="logo" />
-  - automaty samotuszujące - datowniki - <img src="/logo_red.svg" alt="logo" /> - tuszownice wymienne - pre-ink -
+  - automaty samotuszujące - datowniki - <img src="/logo_red.svg" alt="logo" /> - tuszownice wymienne - numeratory -
   <img src="/logo_red.svg" alt="logo" />
-  - oprawy metalowe - oprawy plastikowe - <img src="/logo_red.svg" alt="logo" /> - automaty stemplarskie - wymienne
-  cartrige - <img src="/logo_red.svg" alt="logo" /> - numeratory - materiały eksploatacyjne -
+  - Horray - Colop - Trodat - <img src="/logo_red.svg" alt="logo" /> - automaty stemplarskie - numeratory -
 </div>
 
 <style>

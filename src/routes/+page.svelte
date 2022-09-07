@@ -18,7 +18,7 @@
 
   <section id="uslugi">
     <div class="left">
-      <h1>Znakowanie</h1>
+      <h1>Tabliczki znamionowe</h1>
       <p>
         Wykonujemy znakowanie tabliczek i paneli metalowych, z metalu z pokryciami powierzchniowymi, laminatu oraz folii
         grawerskiej.
@@ -45,7 +45,6 @@
         <img src="/img/phone.png" alt="phone" />
         <div>
           <b>Telefon</b>
-          <a href="tel:+48627531590">tel. 62 753 15 90</a>
           <a href="tel:+48627531591">tel. 62 753 15 91</a>
           <a href="tel:+48608612625">tel. 608 612 625</a>
         </div>
@@ -83,12 +82,13 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 4rem 2rem;
+    padding: 4rem 0;
   }
 
   section {
+    padding: 0 2rem;
     width: 100%;
-    max-width: 900px;
+    max-width: 950px;
   }
 
   h1 {
@@ -112,11 +112,11 @@
   }
   #kontakt img {
     display: block;
-    width: 3rem;
+    width: 2.5rem;
   }
   #kontakt .row {
     display: grid;
-    grid-template-columns: 3rem 1fr;
+    grid-template-columns: 2.5rem 1fr;
     margin: 1rem 0;
   }
   #kontakt .row div {

@@ -60,13 +60,13 @@
         </div>
       </div>
     </div>
-
     <div class="right">
       <iframe
+        id="map"
         title="map"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2469.6677393224336!2d18.061981!3d51.757399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x47ae65b30eb92c8b!2sReed!5e0!3m2!1sen!2spl!4v1662171164031!5m2!1sen!2spl"
-        width="450"
-        height="450"
+        width="800"
+        height="400"
         style="border:0;"
         allowfullscreen=""
         loading="lazy"
@@ -86,25 +86,21 @@
   }
 
   section {
+    display: grid;
+    grid-template-columns: 1fr;
     padding: 0 2rem;
-    width: 100%;
-    max-width: 950px;
   }
 
-  h1 {
-    font-size: 2.25rem;
-    font-weight: bold;
-  }
   p {
     margin: 1.5rem 0;
   }
   .right {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
   }
   .right img {
-    max-width: 12.5ch;
+    display: block;
+    width: 20ch;
   }
 
   #kontakt {
@@ -130,22 +126,17 @@
     text-decoration: none;
   }
 
-  @media (min-width: 700px) {
+  #map {
+    max-width: 100%;
+  }
+
+  @media (min-width: 800px) {
     section {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 2rem;
-    }
-    .left {
-      gap: 1.5rem;
-      max-width: 40ch;
-    }
-    .right img {
-      max-width: 20ch;
+      grid-template-columns: 40ch 20ch;
+      gap: 4rem;
     }
     #kontakt {
-      align-items: flex-start;
+      grid-template-columns: 25ch 35ch;
     }
   }
 </style>

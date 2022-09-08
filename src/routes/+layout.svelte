@@ -1,11 +1,28 @@
 <script>
   import '$lib/global.css';
 
-  import Logo from '$lib/Logo.svelte';
+  import Ribbon from '$lib/Ribbon.svelte';
 </script>
 
-<Logo align="left" />
+<Ribbon />
 
 <slot />
 
-<Logo align="right" />
+<footer>
+  <a href="/obowiazek-informacyjny">Obowiązek informacyjny</a>
+  <a href="/polityka-prywatnosci">Polityka prywatności</a>
+  <p>Dariusz Kaźmierczak i Artur Fornalczyk sp.j.<br />Wszystkie prawa zastrzeżone © 2022</p>
+</footer>
+
+<Ribbon />
+
+<style>
+  footer,
+  footer * {
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  footer a {
+    white-space: nowrap;
+  }
+</style>
